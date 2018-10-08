@@ -1,0 +1,24 @@
+controller_list:
+  - name: fake_summit_controller
+    joints:
+      - virtual_joint
+      - joint_back_left_wheel
+      - joint_back_right_wheel
+      - joint_front_left_wheel
+      - joint_front_right_wheel
+      - toe_foot_joint
+      - foot_knee_joint
+      - knee_lap_joint
+      - lap_hip_joint
+      - hip_arm_joint
+      - arm_hand_joint
+      - hand_finger_joint
+  - name: fake_fotokite_controller
+    joints:
+      - toe_foot_joint
+      - foot_knee_joint
+      - knee_lap_joint
+      - lap_hip_joint
+      - hip_arm_joint
+      - arm_hand_joint
+      - hand_finger_joint
